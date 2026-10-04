@@ -1183,7 +1183,7 @@ export const AdminView: React.FC = () => {
           <form onSubmit={handleLoginSubmit} className="space-y-4">
             <div>
               <label className="block text-xs font-semibold text-slate-300 mb-1">
-                Admin Username
+                Username
               </label>
               <div className="relative">
                 <User className="w-4 h-4 text-slate-500 absolute left-3 top-1/2 -translate-y-1/2" />
@@ -1192,7 +1192,7 @@ export const AdminView: React.FC = () => {
                   required
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  placeholder="admin or munshi"
+                  placeholder="admin"
                   className="w-full pl-9 pr-3 py-2.5 text-sm bg-slate-900 text-white rounded-xl border border-slate-800 focus:outline-none focus:ring-1 focus:ring-blue-500"
                 />
               </div>
@@ -1226,7 +1226,7 @@ export const AdminView: React.FC = () => {
 
           <div className="pt-2 text-center text-xs text-slate-500 flex items-center justify-center gap-1.5">
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
-            <span>Authorized for MD Naeem Hossin & Senior Editorial Staff</span>
+            <span>Authorized Senior Editorial Staff</span>
           </div>
         </div>
 
